@@ -13,16 +13,16 @@ namespace SimpelButik.Data;
             {
                 new("Knatte", "123", Market.SE),
                 new("Fnatte", "321", Market.UK),
-                new("Tjatte", "231", Market.DE),
+                new("Tjatte", "231", Market.RS),
             };
 
             FileIO.AddData("Customers.json", JsonSerializer.Serialize(customers));
 
             var products = new List<Product>()
             {
-                new("Sausage", 25),
-                new("Drink", 30),
-                new("Apple", 15)
+                new("Sausage",25),
+                new("Drink"  ,30),
+                new("Apple"  ,15)
             };
 
             FileIO.AddData("Products.json", JsonSerializer.Serialize(products));

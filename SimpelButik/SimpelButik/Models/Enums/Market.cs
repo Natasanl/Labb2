@@ -4,5 +4,5 @@ public enum Market
 {
     SE,
     UK,
-    DE
+    RS
 }
